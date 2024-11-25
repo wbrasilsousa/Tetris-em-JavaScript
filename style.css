@@ -1,0 +1,51 @@
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.tetris-board .block {
+    width: 30px;
+    height: 30px;
+    border:solid 1px #ddd;
+    display:inline-block;
+    font-size:8pt;
+    color:black;
+    text-align:center;
+    background: white;
+} 
+
+.tetris-board .row {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.tetris-board .floor .block {
+    background:#333;
+} 
+.tetris-board .block.filled {
+    background-color: black;
+    color:white;
+}
+.points {
+    font-family: 'Press Start 2P', cursive;
+    background: #333;
+    color: white;
+    padding: 5px;
+    width: 310px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -105%);
+    text-align: center;
+}
+.button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
